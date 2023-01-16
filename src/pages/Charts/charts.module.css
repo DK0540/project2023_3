@@ -1,0 +1,8 @@
+.chart{
+    background-image: linear-gradient(to right, #ffffff, #1bf7f7);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: rgba(1, 59, 250, 0.726) 0px 3px 8px;
+  }

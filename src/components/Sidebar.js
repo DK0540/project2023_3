@@ -9,6 +9,8 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
+import { BiLogOut } from "react-icons/bi";
+import { BiArrowBack } from "react-icons/bi";
 
 const Sidebar = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,6 +52,16 @@ const Sidebar = ({ children }) => {
       path: "/search",
       name: "Search",
       icon: <AiOutlineSearch />,
+    },
+    {
+      path: "/search",
+      name: "Log Out",
+      icon: <BiLogOut />,
+    },
+    {
+      path: "/search",
+      name: "Back",
+      icon: <BiArrowBack />,
     },
   ];
   return (
